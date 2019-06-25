@@ -8,4 +8,4 @@
 
 # [REST和RESTFUL](https://www.zhihu.com/question/28557115)
 
-# ArrayBuffer 和其它编码形式的转换
+# [ArrayBuffer 和其它编码形式的转换](https://github.com/54leibo/blog/issues/1#issue-460327275)
