@@ -9,3 +9,5 @@
 # [REST和RESTFUL](https://www.zhihu.com/question/28557115)
 
 # [Transfer: ArrayBuffer、Base64、Hex、String](https://github.com/54leibo/blog/issues/1#issue-460327275)
+
+# [web中的文件上传和下载](https://github.com/54leibo/blog/issues/2#issue-462621634)
