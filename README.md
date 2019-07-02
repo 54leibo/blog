@@ -5,7 +5,7 @@
 
 # web优化
 
-# 专题
+# 其它总结
 ## websocket系列
 - [api介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket#Ready_state_constants)
 - [基本使用案例](https://www.html5rocks.com/zh/tutorials/websockets/basics/)
