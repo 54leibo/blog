@@ -19,3 +19,5 @@
 ### [web中的文件上传和下载](https://github.com/54leibo/blog/issues/2#issue-462621634)
 
 ### [Transfer: ArrayBuffer、Base64、Hex、String](https://github.com/54leibo/blog/issues/1#issue-460327275)
+
+### [javascritp实现一个简单队列，顺序执行异步任务](https://github.com/54leibo/blog/issues/3#issue-463668795)
