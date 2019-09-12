@@ -22,4 +22,4 @@
 
 ### [JavaScript实现一个简单队列，顺序执行异步任务](https://github.com/54leibo/blog/issues/3#issue-463668795)
 
-### [node-fetch在node环境下实现上传下载进度条功能](https://github.com/54leibo/blog/issues/3#issue-463668795)
+### [node-fetch在node环境下实现上传下载进度条功能](https://github.com/54leibo/blog/issues/4#issue-492579206)
