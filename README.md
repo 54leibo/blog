@@ -23,3 +23,5 @@
 ### [JavaScript实现一个简单队列，顺序执行异步任务](https://github.com/54leibo/blog/issues/3#issue-463668795)
 
 ### [利用stream为node-fetch实现文件上传下载进度条功能](https://github.com/54leibo/blog/issues/4#issue-492579206)
+
+### [接口请求失败重试机制](https://github.com/54leibo/blog/issues/5#issue-518192946)
