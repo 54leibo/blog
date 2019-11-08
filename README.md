@@ -20,3 +20,4 @@
 - [利用stream为node-fetch实现文件上传下载进度条功能](https://github.com/54leibo/blog/issues/4#issue-492579206)
 - [接口请求失败重试机制](https://github.com/54leibo/blog/issues/5#issue-518192946)
 - [获取中文首字母（常用于通讯录）](https://github.com/54leibo/blog/issues/6#issue-518221175)
+- [Promise关键步骤实现](https://github.com/54leibo/blog/issues/7#issue-519717701)
