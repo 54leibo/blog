@@ -21,5 +21,5 @@
 - [接口请求失败重试机制](https://github.com/54leibo/blog/issues/5#issue-518192946)
 - [获取中文首字母（常用于通讯录）](https://github.com/54leibo/blog/issues/6#issue-518221175)
 - [Promise关键步骤实现](https://github.com/54leibo/blog/issues/7#issue-519717701)
-- [扫码二维码登录实现原理简述]()
+- [扫码二维码登录实现原理简述](https://github.com/54leibo/blog/issues/8#issue-574462121)
 - [全屏截图实现原理]()
