@@ -27,3 +27,4 @@
 - [数组、对象相互嵌套递归查找](https://github.com/54leibo/blog/issues/11#issue-583442746)
 - [body滚动监听问题](https://github.com/54leibo/blog/issues/12#issue-584136234)
 - [利用border制作三角形以及箭头](https://github.com/54leibo/blog/issues/13#issue-584808842)
+- [需求实现：仅支持中英文和数字，且字数不超过8个汉字或16个字母](https://github.com/54leibo/blog/issues/14#issue-586748555)
