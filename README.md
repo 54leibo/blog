@@ -9,7 +9,8 @@
 # web开发效率
 - webpack系列
   - require.context方法
-
+  - 插件
+    - (NormalModuleReplacementPlugin:模块解析之前替换模块路径)[https://github.com/54leibo/blog/issues/16#issue-629739137]
 # 其它总结
 - websocket系列
   - [api介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket#Ready_state_constants)
