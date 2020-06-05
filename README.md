@@ -34,4 +34,4 @@
 - [需求实现：仅支持中英文和数字，且字数不超过8个汉字或16个字母](https://github.com/54leibo/blog/issues/14#issue-586748555)
 - [保持子元素高度与父元素一致（未设置高度）](https://github.com/54leibo/blog/issues/15#issue-588275909)
 - Backbone源码解读
-    - Events模块
+    - [Events模块](./others/backboneSourceCodeAnalyze/events.md)
