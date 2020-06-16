@@ -33,5 +33,6 @@
 - [利用border制作三角形以及箭头](https://github.com/54leibo/blog/issues/13#issue-584808842)
 - [需求实现：仅支持中英文和数字，且字数不超过8个汉字或16个字母](https://github.com/54leibo/blog/issues/14#issue-586748555)
 - [保持子元素高度与父元素一致（未设置高度）](https://github.com/54leibo/blog/issues/15#issue-588275909)
-- Backbone源码解读
+- Backbone源码解读(暂缓)
     - [Events模块](./others/backboneSourceCodeAnalyze/events.md)
+- [利用Promise包装worker](./others/worker/wrapWorkerWithPromise.md)
