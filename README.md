@@ -17,7 +17,7 @@
 - websocket系列
   - [api介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket#Ready_state_constants)
   - [基本使用案例](https://www.html5rocks.com/zh/tutorials/websockets/basics/)
-- [如何保证消息的可靠性（不丢消息）](./im/reliability.md)
+- [保证消息的可靠性（不丢消息）](./im/reliability.md)
 
 # 其它总结
 - [REST和RESTFUL](https://www.zhihu.com/question/28557115)
