@@ -13,10 +13,13 @@
   - 插件
     - [NormalModuleReplacementPlugin:模块解析之前替换模块路径](https://github.com/54leibo/blog/issues/16#issue-629739137)
 
-# 其它总结
+# IM 即时通讯
 - websocket系列
   - [api介绍](https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket#Ready_state_constants)
   - [基本使用案例](https://www.html5rocks.com/zh/tutorials/websockets/basics/)
+- [如何保证消息的可靠性（不丢消息）](./im/reliability.md)
+
+# 其它总结
 - [REST和RESTFUL](https://www.zhihu.com/question/28557115)
 - [web中的文件上传和下载](https://github.com/54leibo/blog/issues/2#issue-462621634)
 - [Transfer: ArrayBuffer、Base64、Hex、String](https://github.com/54leibo/blog/issues/1#issue-460327275)
@@ -36,3 +39,4 @@
 - Backbone源码解读(暂缓)
     - [Events模块](./others/backboneSourceCodeAnalyze/events.md)
 - [利用Promise包装worker](./others/worker/wrapWorkerWithPromise.md)
+
