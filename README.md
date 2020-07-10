@@ -3,9 +3,9 @@
 # web安全
 - [四种常见web攻击](https://zhuanlan.zhihu.com/p/23309154)
 
-# web优化
+# 性能优化
 - 缓存
-  - http缓存：Expires、Cache-Control、Last-Modify/If-Modify-Since、ETag/If-None-Match
+  - [http浏览器端缓存](performanceOptimization/httpBrowserCache.md)
 
 # web开发效率
 - webpack系列
