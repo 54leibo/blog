@@ -39,4 +39,5 @@
 - Backbone源码解读(暂缓)
     - [Events模块](./others/backboneSourceCodeAnalyze/events.md)
 - [利用Promise包装worker](./others/worker/wrapWorkerWithPromise.md)
+- [实现call、apply、bind、new实现（原理简版）](./others/callApplyBindNew/callApplyBindNew.md)
 
