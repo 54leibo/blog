@@ -1,7 +1,7 @@
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 
 # web安全
-- [四种常见web攻击](https://zhuanlan.zhihu.com/p/23309154)
+- [四种常见web攻击以及预防措施](security/fourCommonAttach/index.md)
 
 # 性能优化
 - 缓存
