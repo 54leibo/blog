@@ -73,4 +73,4 @@ Cookie支持跨域名访问，例如将domain属性设置为“.biaodianfu.com�
 - [原文链接](https://mp.weixin.qq.com/s?__biz=MzA4MjA0MTc4NQ==&mid=504090000&idx=3&sn=f57d4f194c902daadd80296d5b8ed001#rd)
 
 # 面试简答
-Cookie是浏览器端的存储系统，每一次请求会将其作为Http请求头携带；Session是服务端用于记录用户状态的数据结构；Cookie是Session方案的一种方式；
+Cookie是浏览器端的存储系统，每一次请求会将其作为Http请求头携带，主要用语记录用户状态；Session是服务端用于记录用户状态的数据结构；用户量大则用Cookie方案减少服务端压力，否则可以用Session方案更好保护用户信息；
