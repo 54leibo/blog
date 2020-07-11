@@ -42,4 +42,5 @@
 - [实现call、apply、bind、new实现（原理简版）](./others/callApplyBindNew/callApplyBindNew.md)
 - http无状态解决方案
     - [Cookie和Session的区别](./others/httpNoStateSolution/cookieAndSession/index.md)
+    - [Cookie禁用怎样正常使用Session](./others/httpNoStateSolution/useSessionIfCookieDisabled/index.md)
 
