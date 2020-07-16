@@ -1,6 +1,6 @@
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 # 深入理解js
-- [js中6种继承方式的区别]()
+- [js中7种继承方式对比](deepJavascript/InheritanceWayOfJavascript.md)
 
 # web安全
 - [四种常见web攻击以及预防措施](security/fourCommonAttach/index.md)
