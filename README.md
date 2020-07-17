@@ -1,6 +1,9 @@
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
+# es6学习笔记
+- [Proxy和Reflect(学习笔记)](./es6/proxyAndReflect.md)
+
 # 深入理解js
-- [js中7种继承方式对比](deepJavascript/InheritanceWayOfJavascript.md)
+- [js中7种继承方式对比(学习笔记)](deepJavascript/InheritanceWayOfJavascript.md)
 
 # web安全
 - [四种常见web攻击以及预防措施](security/fourCommonAttach/index.md)
