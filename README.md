@@ -1,6 +1,7 @@
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 # es6学习笔记
 - [Proxy和Reflect(学习笔记)](./es6/proxyAndReflect.md)
+- [类属性的类型-public/static/protected/private](./es6/classAttributeModifier.md)
 
 # 深入理解js
 - [js中7种继承方式对比(学习笔记)](deepJavascript/InheritanceWayOfJavascript.md)
