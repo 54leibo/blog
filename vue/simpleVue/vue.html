@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app" cus-attr="1">
+        name: <div>{{name}}</div>
+        age: <div v-text="age"></div>
+        <br>
+        currentTime: <div>{{currentTime}}</div>
+        <br>
+        click: <div @click="toggle">{{toggleValue}}</div>
+    </div>
+    <!-- <script src="../node_modules/vue/dist/vue.js"></script> -->
+    <script src="./vue.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                name: 'hello world',
+                age: 18,
+                currentTime: new Date(),
+                toggleValue: false
+            },
+            created() {
+                setTimeout(() => {
+                    this.currentTime = new Date()
+                }, 1000)
+            },
+            methods: {
+                toggle() {
+                    this.toggleValue = !this.toggleValue
+                    console.log('toggle', this.toggleValue)
+                }
+            },
+        })
+    </script>
+</body>
+
+</html>

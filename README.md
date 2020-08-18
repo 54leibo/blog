@@ -25,6 +25,9 @@
   - [基本使用案例](https://www.html5rocks.com/zh/tutorials/websockets/basics/)
 - [保证消息的可靠性（不丢消息）](./im/reliability.md)
 
+# Vue 系列
+- [200行实现一个简版Vue: 数据响应、事件绑定、代理等](./vue/simpleVue/index.md)
+
 # 其它总结
 - [REST和RESTFUL](https://www.zhihu.com/question/28557115)
 - [web中的文件上传和下载](https://github.com/54leibo/blog/issues/2#issue-462621634)
