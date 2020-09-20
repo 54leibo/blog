@@ -1,5 +1,5 @@
 代码快照
-![](./codeShop.png)
+![代码快照](./codeShop.png)
 
 实现思路
 利用Object.defineProperty实现发布订阅模式，数据调用触发get收集依赖，数据设置触发set通知依赖更新。
