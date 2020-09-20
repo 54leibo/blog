@@ -22,6 +22,7 @@
 
 2.bin目录下新建文件cli.js
 ```
+// 该行会影响到.cmd文件的生成，意思为以node运行指定路径文件
 #!/usr/bin/env node
 
 console.log('cli....')
