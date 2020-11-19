@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-11-19 16:38:04
- * @LastEditTime: 2020-11-19 17:02:34
+ * @LastEditTime: 2020-11-19 17:07:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /blog/README.md
@@ -37,13 +37,13 @@
 
 # Vue 系列
 - [200行实现一个简版Vue: 数据响应、事件绑定、代理等](./vue/simpleVue/index.md)
-<!-- - [参考源码实现一个简单的vue-router]
+<!-- - [参考源码实现一个简单的vue-router] -->
 
-# React系列
-- [参考源码实现一个简单的react-route-dom]()
+<!-- # React系列 -->
+<!-- - [参考源码实现一个简单的react-route-dom]() -->
 
-# Vue VS React
-- [vue-router vs react-route-dom]() -->
+<!-- # Vue VS React -->
+<!-- - [vue-router vs react-route-dom]() -->
 
 # 其它总结
 - [REST和RESTFUL](https://www.zhihu.com/question/28557115)
