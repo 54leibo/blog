@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-11-19 16:38:04
+ * @LastEditTime: 2020-11-19 16:57:02
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /blog/README.md
+-->
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 # es6学习笔记
 - [Proxy和Reflect(学习笔记)](./es6/proxyAndReflect.md)
@@ -18,6 +26,8 @@
   - [require.context: 创建模块上下文](https://github.com/54leibo/blog/issues/17#issue-629818310)
   - 插件
     - [NormalModuleReplacementPlugin:模块解析之前替换模块路径](https://github.com/54leibo/blog/issues/16#issue-629739137)
+- babel
+  - [实用知识](./developEfficiency/babel/proticalKnowledge.md)
 
 # IM 即时通讯
 - websocket系列
