@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-11-19 16:38:04
- * @LastEditTime: 2020-11-19 16:57:02
- * @LastEditors: your name
+ * @LastEditTime: 2020-11-19 17:02:34
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /blog/README.md
 -->
@@ -27,7 +27,7 @@
   - 插件
     - [NormalModuleReplacementPlugin:模块解析之前替换模块路径](https://github.com/54leibo/blog/issues/16#issue-629739137)
 - babel
-  - [实用知识](./developEfficiency/babel/proticalKnowledge.md)
+  - [基本概念、常用配置](./developEfficiency/babel/praticalKnowledge.md)
 
 # IM 即时通讯
 - websocket系列
