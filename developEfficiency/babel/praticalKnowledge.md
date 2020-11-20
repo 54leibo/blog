@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2020-11-19 16:56:02
- * @LastEditTime: 2020-11-19 16:56:24
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /blog/developEfficiency/babel/praticalKnowledge.md
--->
 # babel是什么
 babel是一个工具链，主要用于将 ECMAScript 2015+ 版本的代码转换为向后兼容的 Javascript 语法，以便能够运行在当前和旧版本的浏览器或其它环境中
 
@@ -27,7 +19,7 @@ babel是一个工具链，主要用于将 ECMAScript 2015+ 版本的代码转换
 - 配置化（.babelrc/.babel.config.js/loader等）：通过配置文件配置参数
 - 一个特殊的插件（@babel/plugin-transform-runtime 搭配 @babel/runtime）：解决包过大问题，同时去除重复的帮助函数代码、解决全局污染问题，具体配置见 polyfill按需引入
 
-# polyfill按需引入
+# polyfill按需引入（[测试项目地址](https://github.com/54leibo/testCode/tree/main/learnBabel)）
 ```
 // 方法一：全局引入（优点：包过大、全局污染）
 // 方法二：按需引入（优点：解决包过大 缺点：帮助函数重复注入、全局污染）
@@ -99,5 +91,7 @@ babel是一个工具链，主要用于将 ECMAScript 2015+ 版本的代码转换
 - 常用：.babelrc/babel.config.js
 
 # 参考
+- https://www.jianshu.com/p/cbd48919a0cc
+- https://www.cnblogs.com/sefaultment/p/11631314.html
 - https://juejin.im/post/6844904008679686152#heading-11
 - https://www.babeljs.cn/docs/index.html
