@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2020-11-19 16:38:04
- * @LastEditTime: 2020-11-19 17:07:58
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /blog/README.md
--->
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 # es6学习笔记
 - [Proxy和Reflect(学习笔记)](./es6/proxyAndReflect.md)
@@ -23,9 +15,14 @@
 
 # web开发效率
 - webpack系列
-  - [require.context: 创建模块上下文](https://github.com/54leibo/blog/issues/17#issue-629818310)
-  - 插件
-    - [NormalModuleReplacementPlugin:模块解析之前替换模块路径](https://github.com/54leibo/blog/issues/16#issue-629739137)
+  - 基础概念
+    - [require.context: 创建模块上下文](https://github.com/54leibo/blog/issues/17#issue-629818310)
+  - 常见需求解决
+    - [模块解析之前替换模块路径：NormalModuleReplacementPlugin](https://github.com/54leibo/blog/issues/16#issue-629739137)
+    <!-- - [webpack 常见需求实现1](./developEfficiency/webpack/commonDemand01.md) -->
+    <!-- - [webpack 常见需求实现2](./developEfficiency/webpack/commonDemand02.md) -->
+  <!-- - 性能优化 -->
+    <!-- - [webpack 性能优化1](./developEfficiency/webpack/performance1.md) -->
 - babel
   - [基本概念、常用配置](./developEfficiency/babel/praticalKnowledge.md)
 
@@ -44,7 +41,6 @@
 
 <!-- # Vue VS React -->
 <!-- - [vue-router vs react-route-dom]() -->
-
 # 其它总结
 - [REST和RESTFUL](https://www.zhihu.com/question/28557115)
 - [web中的文件上传和下载](https://github.com/54leibo/blog/issues/2#issue-462621634)
@@ -70,4 +66,4 @@
     - [Cookie和Session的区别](./others/httpNoStateSolution/cookieAndSession/index.md)
     - [Cookie禁用怎样正常使用Session](./others/httpNoStateSolution/useSessionIfCookieDisabled/index.md)
 - [npm包注册命令行命令的原理](./others/registerCmdByNpm/index.md)
-
+- [前端书籍推荐](./books.md)
