@@ -19,10 +19,10 @@
     - [require.context: 创建模块上下文](https://github.com/54leibo/blog/issues/17#issue-629818310)
   - 常见需求解决
     - [模块解析之前替换模块路径：NormalModuleReplacementPlugin](https://github.com/54leibo/blog/issues/16#issue-629739137)
-    <!-- - [webpack 常见需求实现1](./developEfficiency/webpack/commonDemand01.md) -->
-    <!-- - [webpack 常见需求实现2](./developEfficiency/webpack/commonDemand02.md) -->
-  <!-- - 性能优化 -->
-    <!-- - [webpack 性能优化1](./developEfficiency/webpack/performance1.md) -->
+    - [webpack 常见需求实现1](./developEfficiency/webpack/commonDemand01.md)
+    - [webpack 常见需求实现2](./developEfficiency/webpack/commonDemand02.md)
+  - 性能优化
+    - [webpack 性能优化1](./developEfficiency/webpack/performance1.md)
 - babel
   - [基本概念、常用配置](./developEfficiency/babel/praticalKnowledge.md)
 
