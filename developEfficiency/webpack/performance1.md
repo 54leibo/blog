@@ -8,6 +8,9 @@
 ## noParse
 ## IgnorePlugin
 ## externals
+## DllPlugin 和 DLLReferencePlugin
+## 抽离公共代码
+## webpack 内部优化
 
 # 内容
 
@@ -188,7 +191,7 @@ import $ from ‘jQuery’
   - [带你深度解锁 Webpack 系列(优化篇)](https://juejin.cn/post/6844904093463347208#heading-10)
   - [webpack externals 详解](https://www.tangshuang.net/3343.html)
 
-# DllPlugin 和 DLLReferencePlugin
+## DllPlugin 和 DLLReferencePlugin
 
 > 动态链接库，把很少更新的库作为打包成独立的包在代码执行时动态加载，其目的是减少源代码包体积并加快构建速度
 
@@ -255,7 +258,7 @@ module.exports = {
 <script src="/dll/react.dll.9dcd9d.js"></script>
 ```
 
-# 抽离公共代码
+## 抽离公共代码
 
 > 抽离公共代码的目的是为了利用缓存
 
@@ -314,7 +317,7 @@ optimization: {
   },
 ```
 
-# webpack 内部优化
+## webpack 内部优化
 
 - tree-shaking：打包时将没有用到的代码删除，仅使用 ES6 模块时有效
 
