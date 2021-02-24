@@ -23,6 +23,7 @@
     - [webpack 常见需求实现2](./developEfficiency/webpack/commonDemand02.md)
   - 性能优化
     - [webpack 性能优化1](./developEfficiency/webpack/performance1.md)
+    <!-- - [webpack 性能优化案例：从1m20s到6s](./developEfficiency/webpack/anPerformanceExample.md) -->
 - babel
   - [基本概念、常用配置](./developEfficiency/babel/praticalKnowledge.md)
 
@@ -67,3 +68,4 @@
     - [Cookie禁用怎样正常使用Session](./others/httpNoStateSolution/useSessionIfCookieDisabled/index.md)
 - [npm包注册命令行命令的原理](./others/registerCmdByNpm/index.md)
 - [前端书籍推荐](./books.md)
+- [git rebase](./git/rebase.md)
