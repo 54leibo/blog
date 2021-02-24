@@ -1,6 +1,16 @@
 # 目录
 
 ## 打包速度衡量工具
+## exclude/include 让 loader 只处理需要处理的文件
+## cache-loader 缓存 loader 的处理结果
+## HardSourceWebpackPlugin 模块中间缓存
+## happypack 调用多进程打包
+## noParse
+## IgnorePlugin
+## externals
+## DllPlugin 和 DLLReferencePlugin
+## 抽离公共代码
+## webpack 内部优化
 
 # 内容
 
@@ -121,7 +131,7 @@ module.exports = {
 }
 ```
 
-# noParse
+## noParse
 
 > 作用：1. 如果一些第三方模块没有 AMD/CommonJS 规范版本，可以使用 noParse 来标识这个模块，这样 Webpack 会引入这些模块，但是不进行转化和解析，从而提升 Webpack 的构建性能；2. 是 AMD/CommonJS 的模块，但是不需要转化和解析的也可以使用来加快构建速度
 
@@ -132,7 +142,7 @@ module: {
     }
 ```
 
-# IgnorePlugin
+## IgnorePlugin
 
 > 作用：忽略第三方包指定内容，例如: moment (2.24.0 版本) 会将所有本地化内容（语言）和核心功能一起打包，我们就可以使用 IgnorePlugin 在打包时忽略本地化内容，使用时只引入需要用到的语言包
 
@@ -147,7 +157,7 @@ import moment from 'moment';
 import 'moment/locale/zh-cn';// 手动引入
 ```
 
-# externals
+## externals
 
 > 不参与打包的文件，但是需要通过 import/require 模块语法引入，实际引入位置为 html
 
@@ -181,7 +191,7 @@ import $ from ‘jQuery’
   - [带你深度解锁 Webpack 系列(优化篇)](https://juejin.cn/post/6844904093463347208#heading-10)
   - [webpack externals 详解](https://www.tangshuang.net/3343.html)
 
-# DllPlugin 和 DLLReferencePlugin
+## DllPlugin 和 DLLReferencePlugin
 
 > 动态链接库，把很少更新的库作为打包成独立的包在代码执行时动态加载，其目的是减少源代码包体积并加快构建速度
 
@@ -248,7 +258,7 @@ module.exports = {
 <script src="/dll/react.dll.9dcd9d.js"></script>
 ```
 
-# 抽离公共代码
+## 抽离公共代码
 
 > 抽离公共代码的目的是为了利用缓存
 
@@ -307,7 +317,7 @@ optimization: {
   },
 ```
 
-# webpack 内部优化
+## webpack 内部优化
 
 - tree-shaking：打包时将没有用到的代码删除，仅使用 ES6 模块时有效
 
