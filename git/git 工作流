@@ -1,4 +1,4 @@
-##  背景
+# 背景
 
 - **版本管理的演进**：本地版本管理 → 远程中心化版本管理 → 远程分布式版本管理
 - **Git 工作流的演进**：无工作流 → Git Flow → GitHub Flow → GitLab Flow → Trunk-Based Development
@@ -9,7 +9,7 @@
   - 用户体验优化需求
   - 安全性考量
 
-## 高效 Git 工作流的特征
+# 高效 Git 工作流的特征
 
 - **适应多种场景**：
   - 测试完成但暂不发布
@@ -30,9 +30,9 @@
   4. 自动执行发布操作
   5. 发布完成后通知测试团队
 
-## 基于 Feature 分支的工作流模型
+# 基于 Feature 分支的工作流模型
 
-### 核心分支结构
+## 核心分支结构
 
 | 分支名称 | 来源分支 | 合并目标分支 | 环境绑定 | 说明 |
 |---------|---------|------------|---------|------|
@@ -42,7 +42,7 @@
 | feat/* | prod | dev, test, prod | - | 功能开发分支，完成后需向各环境分支合并 |
 | hotfix/* | prod | prod | - | 紧急修复分支，直接修复生产问题 |
 
-### 工作流程示例
+## 工作流程示例
 
 ```bash
 # 从生产分支创建功能分支
@@ -58,7 +58,7 @@ git checkout test && git merge --no-ff feature/xxx
 git checkout prod && git merge --no-ff feature/xxx
 ```
 
-### 优缺点分析
+## 优缺点分析
 
 - ✅ 按需部署能力：功能可以选择性地合并到不同环境，支持功能的独立发布
 - ✅ 多层次质量保障：双重 Code Review (feat→sit, feat→prod)
@@ -69,9 +69,9 @@ git checkout prod && git merge --no-ff feature/xxx
 - ❌ Merge Request 过程中解决冲突会产生额外合并提交
 
 
-## 主流工作流介绍
+# 主流工作流介绍
 
-### 1. Git Flow
+## 1. Git Flow
 
 **适用场景**：中大型项目、多版本并行维护、严格发布周期
 
@@ -102,7 +102,7 @@ git checkout prod && git merge --no-ff feature/xxx
 - ❌ 不适合需要快速迭代的项目
 - ❌ 工作流程相对僵化，对敏捷开发支持有限
 
-### 2. GitHub Flow
+## 2. GitHub Flow
 
 **适用场景**：小型团队、高频发布、SaaS 产品
 
@@ -123,7 +123,7 @@ git checkout prod && git merge --no-ff feature/xxx
 - ❌ 不适合多版本并行维护：难以支持多个版本的并行开发
 - ❌ 对自动化测试依赖较高：需要完善的自动化测试保障质量
 
-### 3. GitLab Flow
+## 3. GitLab Flow
 
 **适用场景**：需要与环境部署紧密结合的项目、持续交付模式
 
@@ -145,7 +145,7 @@ git checkout prod && git merge --no-ff feature/xxx
 - ❌ 可能导致分支间同步延迟问题
 - ❌ 需要更多的合并操作和冲突解决
 
-### 4. Trunk-Based Development（主干开发）
+## 4. Trunk-Based Development（主干开发）
 
 **适用场景**：超大型团队、极高频集成（如 Google、Facebook）
 
@@ -173,9 +173,9 @@ git checkout prod && git merge --no-ff feature/xxx
 - ❌ 团队需要高度纪律性和协作
 - ❌ 初期实施成本较高
 
-## 工作流选择指南
+# 工作流选择指南
 
-### 关键决策因素
+## 关键决策因素
 
 - 团队规模与协作模式
 - 发布频率与稳定性需求
@@ -183,7 +183,7 @@ git checkout prod && git merge --no-ff feature/xxx
 - 特定业务场景支持
 - 持续集成还是按版本集成
 
-### 工作流对比
+## 工作流对比
 
 | 工作流 | 分支复杂度 | 发布频率 | 适用团队规模 | CI/CD 友好度 |
 |-------|-----------|---------|------------|------------|
@@ -193,28 +193,28 @@ git checkout prod && git merge --no-ff feature/xxx
 | Trunk-Based | 极低 | 极高频 | 超大型 | 极高 |
 | 基于 Feature 分支的工作流模型 | 高 | 低频 | 中大型 | 中等 |
 
-## 工具与生态支持
+# 工具与生态支持
 
-### Git 图形化工具
+## Git 图形化工具
 - GitKraken、SourceTree、VS Code Git 插件、Git Tower
 
-### 代码托管平台集成
+## 代码托管平台集成
 - GitHub Actions、GitLab CI/CD、Bitbucket Pipelines
 - Jenkins、CircleCI、Travis CI
 
-### 辅助工具
+## 辅助工具
 - Husky（Git 钩子管理）
 - Commitizen（规范化提交）
 - Conventional Commits（提交信息规范）
 - Semantic Release（语义化版本发布）
 
-## 结语
+# 结语
 
 1. **没有"银弹"工作流**：根据团队需求和项目特点灵活选择和调整
 2. **持续优化**：定期回顾工作流程，结合自动化工具提升效率
 3. **团队共识**：工作流的成功取决于团队的理解和执行，而非流程本身的复杂度
 
-## 参考资料
+# 参考资料
 
 - [Git Flow: A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
 - [GitHub Flow](https://guides.github.com/introduction/flow/)
