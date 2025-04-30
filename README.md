@@ -1,6 +1,6 @@
 能讲清楚，才是真的学会了(访问地址：https://54leibo.github.io/blog/)
 # git
-- [git 工作流](./git/git 工作流.md)
+- [git 工作流](./git/git%20工作流.md)
   
 # es6学习笔记
 - [Proxy和Reflect(学习笔记)](./es6/proxyAndReflect.md)
