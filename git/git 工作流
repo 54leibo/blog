@@ -1,4 +1,4 @@
-## 背景
+##  背景
 
 - **版本管理的演进**：本地版本管理 → 远程中心化版本管理 → 远程分布式版本管理
 - **Git 工作流的演进**：无工作流 → Git Flow → GitHub Flow → GitLab Flow → Trunk-Based Development
