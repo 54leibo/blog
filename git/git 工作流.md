@@ -44,7 +44,7 @@
 
 ## 分支图
 
-![基于 Feature 分支的工作流模型分支图](./images/feature-branch-workflow-branch.png)
+![基于 Feature 分支的工作流模型分支图](./images/feature-based-flow-branch.png)
 
 ## 工作流程示例
 
