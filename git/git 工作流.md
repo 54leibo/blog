@@ -42,6 +42,10 @@
 | feat/* | prod | dev, test, prod | - | 临时，发布完成后删除 | 功能开发分支 |
 | hotfix/* | prod | prod | - | 临时，发布完成后删除 | 紧急修复分支，直接修复生产问题 |
 
+## 分支图
+
+![基于 Feature 分支的工作流模型分支图](./images/feature-branch-workflow-branch.png)
+
 ## 工作流程示例
 
 ```bash
@@ -117,6 +121,10 @@ git checkout prod && git merge --no-ff feature/xxx
 | main | - | - | 生产环境 | 永久 | 主分支，始终保持可部署状态 |
 | feature/* | main | main | - | 临时，功能完成后删除 | 功能开发分支，通过PR合并回main |
 
+**分支图**：
+
+![GitHub Flow 分支图](./images/github-flow-branch.png)
+
 **优缺点分析**：
 
 - ✅ 简单直观：流程简单，易于理解和执行
@@ -140,6 +148,10 @@ git checkout prod && git merge --no-ff feature/xxx
 | dev | pre-production | pre-production | 开发环境 | 永久 | 开发集成分支，包含已完成功能 |
 | feature/* | dev | dev | - | 临时，功能完成后删除 | 功能开发分支，完成后合并到dev |
 
+**分支图**：
+
+![GitLab Flow 分支图](./images/gitlab-flow-branch.png)
+
 **优缺点**：
 - ✅ 环境与分支紧密绑定，部署流程透明可追踪
 - ✅ 支持持续交付模式，适合需要频繁部署的项目
@@ -160,6 +172,10 @@ git checkout prod && git merge --no-ff feature/xxx
 | trunk/main | - | - | 生产环境 | 永久 | 主干分支，所有开发都基于此分支 |
 | release/* | trunk | - | 生产环境 | 临时，版本发布后可能保留 | 可选的发布分支，用于版本发布 |
 | feature/* | trunk | trunk | - | 临时，功能完成后删除 | 短生命周期功能分支（通常<1天），快速合并回主干 |
+
+**分支图**：
+
+![Trunk-Based Development 分支图](./images/trunk-based-development-branch.png)
 
 **核心规则**：
 - 开发直接提交到主干或极短生命周期分支（1-2天内合并）
