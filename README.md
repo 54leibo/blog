@@ -72,4 +72,4 @@
 - [npm包注册命令行命令的原理](./others/registerCmdByNpm/index.md)
 - [前端书籍推荐](./books.md)
 - [git rebase](./git/rebase.md)
-- [表格用户级偏好记忆：一套前端配置 Overlay 架构实践](./others.tableUserPreferencePractices.md)
+- [表格用户级偏好记忆：一套前端配置 Overlay 架构实践](./others/tableUserPreferencePractices.md)
